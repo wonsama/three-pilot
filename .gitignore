@@ -105,4 +105,4 @@ typings/
 
 # wonsama added
 package-lock.json
-
+.entry.json

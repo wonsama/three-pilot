@@ -1,4 +1,0 @@
-{
-  "entry": "./src/client/study/s03_scene-camera-renderer.ts",
-  "template": "./src/client/study/s03.html"
-}
