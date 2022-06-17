@@ -3,11 +3,15 @@
 ## 설치
 
 > windows 의 경우 [git](https://git-scm.com/) 을 설치하여 `git-bash` 와 같은 terminal을 활용하여 작업을 진행하는 것을 추천함
+> nodejs 가 설치 되어 있다는 가정 하에 진행
 
 ```sh
-git clone https://github.com/wonsama/three-pilot
+# degit 이 설치 되지 않은 경우
+npm i -g degit
+# degit [클론받을 프로젝트 url] [다운받을 디렉토리명]
+degit https://github.com/wonsama/three-pilot  three-pilot
 cd three-pilot
-npm install
+npm i
 cp .entry.json.sample .entry.json
 ```
 
@@ -57,30 +61,30 @@ cp .entry.json.sample .entry.json
 nodejs
 
 # npm 업그레이드
-npm install -g npm
+npm i -g npm
 
 # npm 을 통한 typescript 글로벌 설치 (tsc 설치를 위함)
-npm install -g typescript
+npm i -g typescript
 
 # 프로젝트 폴더 생성
 mkdir three-pilot
 cd three-pilot
 
 # threejs 라이브러리 설치 (npm or yarn)
-npm install three --include=dev
-npm install @types/three --include=dev
+npm i three --include=dev
+npm i @types/three --include=dev
 
 # dat 라이브러리 설치
-npm install dat.gui @types/dat.gui --include=dev
+npm i dat.gui @types/dat.gui --include=dev
 
 # webpack 라이브러리 추가
-npm install webpack webpack-cli webpack-dev-server webpack-merge ts-loader --include=dev
+npm i webpack webpack-cli webpack-dev-server webpack-merge ts-loader --include=dev
 
 # webpack 기타 라이브러리 추가
-npm install favicons favicons-webpack-plugin html-webpack-plugin --include=dev
+npm i favicons favicons-webpack-plugin html-webpack-plugin --include=dev
 
 # typescript 라이브러리 추가
-npm install typescript --include=dev
+npm i typescript --include=dev
 ```
 
 ## 참조 - 기본 플러그인 설치 (옵션)
