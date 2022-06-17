@@ -19,6 +19,8 @@
   "homepage": "https://github.com/wonsama/three-pilot#readme",
   "dependencies": {
     "@types/three": "^0.141.0",
+    "favicons": "^6.2.2",
+    "favicons-webpack-plugin": "^5.0.2",
     "three": "^0.141.0",
     "ts-loader": "^9.3.0",
     "typescript": "^4.7.3",
@@ -26,5 +28,8 @@
     "webpack-cli": "^4.10.0",
     "webpack-dev-server": "^4.9.2",
     "webpack-merge": "^5.8.0"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^5.5.0"
   }
 }

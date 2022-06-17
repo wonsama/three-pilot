@@ -1,7 +1,10 @@
 const path = require('path');
+const {entry, template} = require('../../entry.json');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+const FaviconsWebpackPlugin = require('favicons-webpack-plugin');
 
 module.exports = {
-  entry: './src/client/client.ts',
+  entry,
   module: {
     rules: [
       {
@@ -18,4 +21,11 @@ module.exports = {
     filename: 'bundle.js',
     path: path.resolve(__dirname, '../../dist/client'),
   },
+  plugins: [
+    new HtmlWebpackPlugin({
+      filename: 'index.html',
+      template,
+    }),
+    new FaviconsWebpackPlugin('./src/client/favicon.png'),
+  ],
 };

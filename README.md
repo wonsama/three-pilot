@@ -23,6 +23,9 @@ npm install @types/three --include=dev
 # webpack 라이브러리 추가
 npm install webpack webpack-cli webpack-dev-server webpack-merge ts-loader --include=dev
 
+# webpack 기타 라이브러리 추가
+npm install favicons favicons-webpack-plugin html-webpack-plugin --include=dev
+
 # typescript 라이브러리 추가
 npm install typescript --include=dev
 ```
@@ -46,6 +49,22 @@ npm install typescript --include=dev
   - scripts 에 기동 설정을 포함
     - dev : webpack.dev.js 설정 정보를 로드하여 webpack 으로 서버를 구동
 
+## 실행 설정
+
+- 실행파일을 매번 바꾸기도 귀찮으니 `entry.json` 을 수정하여 실행하고자 하는 파일을(`entry point(진입점)`) 지정할 수 있도록 함.
+
+```json
+{
+  "entry": "./src/client/study/s03_scene-camera-renderer.ts",
+  "template": "./src/client/study/s03.html"
+}
+```
+
 ## 실행
 
-개발모드 - `npm run dev`
+- 개발모드 - `npm run dev`
+
+## 참조링크
+
+- [npmjs - html-webpack-plugin](https://www.npmjs.com/package/html-webpack-plugin)
+- [github - favicons-webpack-plugin](https://github.com/jantimon/favicons-webpack-plugin)
