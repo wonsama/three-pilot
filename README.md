@@ -104,6 +104,7 @@ npm i typescript --include=dev
 - [stackoverflow - webpack-config-how-to-just-copy-the-index-html-to-the-dist-folder](https://stackoverflow.com/questions/32155154/webpack-config-how-to-just-copy-the-index-html-to-the-dist-folder) : html-webpack-plugin 설치하여 사용
 - [stackoverflow - all-my-code-runs-twice-when-compiled-by-webpack](https://stackoverflow.com/questions/37081559/all-my-code-runs-twice-when-compiled-by-webpack) : 웹팩 빌드가 2번 되어 들어가는 경우, html-webpack-plugin 내 `inject : false` 설정을 추가한다
 - [webpack plugin을 이용한 favicon, manifest 추가 방법](https://yujo11.github.io/webpack/webpack%20favicon,%20manifest.json%20%EC%B6%94%EA%B0%80%ED%95%98%EA%B8%B0/)
+- [how-to-polyfill-node-core-modules-in-webpack-5](https://www.alchemy.com/blog/how-to-polyfill-node-core-modules-in-webpack-5)
 
 ## TODO
 

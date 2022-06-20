@@ -6,7 +6,7 @@ const DEF_AXIS_SIZE: number = 5;
 
 const DEF_LIGHT_POSITION: THREE.Vector3 = new THREE.Vector3(2.5, 7.5, 15);
 
-const DEF_CAMERA_POSITION: THREE.Vector3 = new THREE.Vector3(0, 0, 3);
+const DEF_CAMERA_POSITION: THREE.Vector3 = new THREE.Vector3(10, 10, 20);
 const DEF_CAMERA_FOV: number = 75;
 const DEF_CAMERA_ASPECT: number = window.innerWidth / window.innerHeight;
 const DEF_CAMERA_NEAR: number = 0.1;
